@@ -1,0 +1,3 @@
+create volume mirror size=104800 disk=1,2
+format fs=ntfs quick unit=4k label="Mirrored Volume"
+assign letter=C:
